@@ -2,13 +2,6 @@
 
 module Shape where
 
---main :: IO ()
--- main = print (area(Polygon ((0, 0):(10, 0):(0, 10):[])),
---               area(Triangle 10 (sqrt 200) 10),
---               area(Polygon ((0, 0):(10, 0):(10, 10):(0, 10):[])),
---               area(Polygon ((0, 0):(-10, 0):(-10, -10):(0, -10):[])),
---              area(Ellipse 11.1 22.3), area(Triangle 2 2 3))
-
 data Shape = Rectangle Side Side
             | Ellipse Radius Radius
             | Triangle Side Side Side
