@@ -6,7 +6,7 @@ data Shape = Rectangle Side Side
             | Ellipse Radius Radius
             | Triangle Side Side Side
             | Polygon [Vertex]
-   deriving Show
+   deriving (Show, Eq)
 
 type Side = Float
 type Radius = Float

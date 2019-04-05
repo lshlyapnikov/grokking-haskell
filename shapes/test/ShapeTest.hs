@@ -1,12 +1,12 @@
--- -*- compile-command: "ghc -Wall -Werror ShapeTest.hs"; eval: (flycheck-mode) -*-
+module ShapeTest (shapeSpec) where
 
 import Test.Hspec
 --import Test.QuickCheck
 --import Control.Exception (evaluate)
 import Shape
 
-main :: IO ()
-main = hspec $ do
+shapeSpec :: Spec
+shapeSpec =  do
   describe "Shape area" $ do
     it "Polygon/Tiangle" $ do
       area(Polygon ((0, 0):(10, 0):(0, 10):[])) `shouldBe` 50
