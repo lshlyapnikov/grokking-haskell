@@ -32,6 +32,9 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -fwarn-incomplete-patterns
+    - -fwarn-incomplete-uni-patterns
+    - -Werror
     dependencies:
     - haskell-prog
 
@@ -43,5 +46,8 @@ tests:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -fwarn-incomplete-patterns
+    - -fwarn-incomplete-uni-patterns
+    - -Werror
     dependencies:
     - haskell-prog

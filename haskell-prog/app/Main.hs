@@ -1,6 +1,13 @@
 module Main where
 
-import Lib
+import           Chapter4 (Mood (Blah, Woot), Pet (Cat, Dog), changeMood)
+
+-- import           Lib
 
 main :: IO ()
-main = someFunc
+main = do
+  print Woot
+  print Blah
+  print (changeMood Woot)
+  print Cat
+  print (Dog "Frodo")
