@@ -1,4 +1,4 @@
-module Chapter5 where
+module Chapter5.Chapter5 where
 
 aaa :: Int -> Int -> Int
 aaa x y = x + y

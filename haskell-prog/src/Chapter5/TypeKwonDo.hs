@@ -1,4 +1,4 @@
-module TypeKwonDo where
+module Chapter5.TypeKwonDo where
 
 -- data Woot
 -- data Blah

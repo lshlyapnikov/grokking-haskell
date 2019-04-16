@@ -1,4 +1,4 @@
-module Chapter5Exs where
+module Chapter5.Chapter5Exs where
 
 -- 1. Given: (++) :: [a] -> [a] -> [a]
 myConcat x = x ++ " yo"
