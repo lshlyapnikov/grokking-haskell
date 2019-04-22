@@ -1,6 +1,6 @@
 {-# LANGUAGE NoMonomorphismRestriction #-}
 
-module DetermineTheType where
+module Chapter5.DetermineTheType where
 
 example = 1
 
