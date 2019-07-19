@@ -8,6 +8,7 @@ data DayOfWeek
   | Fri
   | Sat
   | Sun
+  deriving (Show, Ord, Enum)
 
 -- day of week and numerical day of month
 data Date =
